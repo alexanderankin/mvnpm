@@ -1,0 +1,4 @@
+node_modules/
+mvnpm.pom
+mvnpm_artifacts/
+

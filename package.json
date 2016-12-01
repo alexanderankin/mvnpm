@@ -1,0 +1,43 @@
+{
+  "name": "mvnpm",
+  "version": "0.0.1",
+  "description": "Maven Package Manager, tool for downloading jars from mvn repositories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alexanderankin/mvnpm.git"
+  },
+  "keywords": [
+    "mvn",
+    "package",
+    "package",
+    "manager",
+    "mvnpm",
+    "java",
+    "tool",
+    "dependency",
+    "dependencies"
+  ],
+  "author": "Dave Ankin <daveankin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderankin/mvnpm/issues"
+  },
+  "directories": {
+    "bin": "./bin",
+    "doc": "./doc",
+    "lib": "./lib",
+    "man": "./man"
+  },
+  "homepage": "https://github.com/alexanderankin/mvnpm#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "inquirer": "^1.2.3",
+    "semver": "^5.3.0",
+    "subcommand": "^2.0.4",
+    "xml2js": "^0.4.17"
+  }
+}

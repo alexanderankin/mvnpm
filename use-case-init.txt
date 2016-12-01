@@ -1,0 +1,54 @@
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (mvnpm) 
+version: (1.0.0) 0.0.1
+description: Maven Package Manager, tool for downloading jars from mvn repositories.
+entry point: (index.js) 
+test command: 
+git repository: git@github.com:alexanderankin/mvnpm.git
+keywords: mvn, package, package manager, mvnpm, java, tool, dependency, dependencies
+author: Dave Ankin <daveankin@gmail.com>
+license: (ISC) 
+About to write to /aahh/mvnpm/package.json:
+
+{
+  "name": "mvnpm",
+  "version": "0.0.1",
+  "description": "Maven Package Manager, tool for downloading jars from mvn repositories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alexanderankin/mvnpm.git"
+  },
+  "keywords": [
+    "mvn",
+    "package",
+    "package",
+    "manager",
+    "mvnpm",
+    "java",
+    "tool",
+    "dependency",
+    "dependencies"
+  ],
+  "author": "Dave Ankin <daveankin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderankin/mvnpm/issues"
+  },
+  "homepage": "https://github.com/alexanderankin/mvnpm#readme"
+}
+
+
+Is this ok? (yes) 
