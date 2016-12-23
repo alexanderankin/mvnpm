@@ -1,0 +1,56 @@
+.TH am4j 1 "22 May 1999" "version 0.0.1"
+.SH NAME
+am4j \- Archive Manager for Java
+
+.SH VERSION
+0.0.1
+
+.SH SYNOPSIS
+
+am <command> [args]
+
+.SH DESCRIPTION
+." .BR "am4j" " - Archive Manager for Java"
+
+.Bd --filled
+
+am4j is the dependency manager for Java which Just Works(tm).
+It downloads modules for use into a configurable folder (future
+feature) or am_artifacts/ by default. It allows for dependencies
+from Maven repositories to be referenced in a project with a 
+universal locator without storing binaries in version control. 
+
+." next paragraph
+.PP
+
+It is: a tool for downloading Maven Artifacts. 
+.PP
+It is not: a full-featured compilation assistant like Maven,
+which am4j uses internally.
+
+.Ed
+
+.SH INTRODUCTION
+
+.Bd --filled
+
+An
+.BR "npm" "-like package manager optimized for use as a"
+package downloader instead of a full-featured compilation suite.
+For rapid-prototyping scenarios, when the class design comes
+first and IDE configuration and jar compilation is an
+afterthought, am4j can download library dependencies for use
+in commandline or Makefile compilation.
+
+.Ed
+
+." .SH OPTIONS
+.SH BUGS
+
+Please report bugs to David Ankin <daveankin@gmail.com>
+
+.SH AUTHOR
+
+David Ankin <daveankin@gmail.com>
+
+." .SH SEE ALSO
